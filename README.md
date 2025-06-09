@@ -76,6 +76,21 @@ satya-gemini-vision/
 └── venv/                # Your virtual environment (ignored by Git)
 ```
 
+## 🔒 Security Notice
+
+```
+
+Some files have been intentionally excluded from this repository for privacy and security reasons. These may include:
+
+* Environment configuration files (e.g., `.env`) containing sensitive API keys
+* Local virtual environment folders (`venv/`)
+* System-generated or personal configuration files
+
+These exclusions help protect private data and ensure clean, shareable code.
+If you're setting up this project yourself, please refer to the instructions above to generate your own credentials and configuration.
+
+```
+
 ---
 
 ## 🚀 How to Run This Project
