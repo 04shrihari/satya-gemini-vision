@@ -1,34 +1,28 @@
 # 🧠 Satya Gemini Vision
 
-A powerful image recognition and question-answering application powered by **Google Gemini 1.5 Flash** and built with **Streamlit**.
+A powerful, lightweight application that uses **Google Gemini 1.5 Flash** to analyze and interpret images through natural language prompts.
 
-> 📸 Upload an image (e.g., an invoice) and ask questions about it. The app responds using advanced visual language models.
+> 📸 Upload images like invoices or receipts, ask relevant questions, and get precise, intelligent answers — all in a simple web interface powered by **Streamlit**.
 
 ---
 
 ## 🌟 Features
 
-- 📷 Image upload and visualization
-- 💬 Text-based prompt interface
-- 🤖 Gemini 1.5 Flash integration (Vision + Prompt)
-- 🎨 Elegant UI with pastel theme and dark readable fonts
-- 🚀 Fast, lightweight, and interactive with Streamlit
+- 📷 Image upload & preview
+- 💬 Natural language prompt input
+- 🤖 Multi-modal AI via Gemini 1.5 Flash (image + text)
+- 🎨 Clean pastel-themed UI with readable fonts
+- ✅ Works for documents, receipts, or general-purpose image understanding
 
 ---
 
-## 🖼️ Use Case Example
+## 🧾 Requirements
 
-Upload an invoice and ask:
+To run this project, make sure your environment meets these:
 
-> *"What is the invoice number and total amount?"*
+### 1. **Python**
 
-Get structured answers directly extracted from the visual content using AI.
-
----
-
-## 🔧 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/04shrihari/satya-gemini-vision.git
-   cd satya-gemini-vision
+- Version: `3.9` or higher (recommended: 3.10)
+- You can check your version:
+  ```bash
+  python --version
